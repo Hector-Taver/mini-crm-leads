@@ -9,5 +9,5 @@ def lead_model(name, company, email):
     "company": company,
     "email": email,
     "stage": "novo",
-    "created_at": date.toda().strftime('%Y-%m-%d %H:%M:%S')
+    "created_at": date.today().strftime('%Y-%m-%d %H:%M:%S')
   }
